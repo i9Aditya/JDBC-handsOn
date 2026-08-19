@@ -6,8 +6,8 @@ import java.sql.*;
 public class Main {
     public static void main(String[] args) {
         String url = "jdbc:mysql://localhost:3306/jdbc_learning";
-        String username = "Your_User_Name";
-        String password = "Your_Password";
+        String username = "Your_User_Name"; //suggeseted using .env file
+        String password = "Your_Password"; // suggested using .env file
 
         EmployeeDAO dao = new EmployeeDAO();
 
